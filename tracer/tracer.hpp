@@ -1,3 +1,5 @@
+#include <iostream>
+
 struct tracer {
     tracer() {
         std::cout << __PRETTY_FUNCTION__ << std::endl;   
